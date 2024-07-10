@@ -365,13 +365,13 @@ footer {
   font-size: 1em;
   margin-top: 20px;
   background-color: hsl(240, 69%, 29%);
-  color: white;
+  color: hwb(0 100% 0%);
   text-decoration: none;
   border-radius: 7px;
   cursor: pointer;
 }
 .press-contact-button:hover {
-  background-color: hsl(240, 80%, 40%);
+  background-color: hsl(240, 72%, 39%);
 }
 span {
   color: rgb(37, 152, 167);
