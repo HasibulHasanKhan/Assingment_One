@@ -1,0 +1,378 @@
+* {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.upper {
+  height: 40px;
+}
+.hasib {
+  position: absolute;
+  width: 400px;
+  height: 34px;
+  left: 150px;
+  margin-top: 20px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.download {
+  background-color: hsl(240, 46%, 39%);
+  position: absolute;
+  width: 228px;
+  height: 58px;
+  left: 1046px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 24px 17px 24px;
+  box-sizing: border-box;
+  border: 1px solid rgb(51, 75, 131);
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
+.resume-btn {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.banner {
+  background-image: url("./B10A1-Challenge-Begins/assets/Hero-bg.png");
+  height: 600px;
+  width: 100%;
+  margin-top: 70px;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  align-items: center;
+}
+.image h2 {
+  padding: 15px;
+}
+.image p {
+  padding: 10px;
+  color: hsl(191, 77%, 48%);
+}
+.contact-btn {
+  /* Frame 2 */
+  position: static;
+  width: 208px;
+  height: 66px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 21px 24px 21px 24px;
+
+  /* Inside Auto Layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+  background-color: hsl(240, 87%, 24%);
+  color: hsla(0, 0%, 100%, 0.788);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 7px;
+}
+.my-web-dev {
+  /* Frame 13 */
+
+  width: 85%;
+  height: 1395px;
+  top: 857px;
+  background-color: hwb(222 9% 71% / 0.394);
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.my-web-dev h2 {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.my-web-dev p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 200px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.part-two {
+  position: static;
+  width: 90%;
+  height: 336px;
+
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin-left: 100px;
+}
+.part-three {
+  position: static;
+  width: 90%;
+  height: 336px;
+  border-radius: 16px;
+  background: linear-gradient(
+    270deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.part-four {
+  position: static;
+  width: 90%;
+  height: 336px;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  margin-left: 100px;
+}
+
+/* Three part */
+.part-two-left {
+  float: left;
+  width: 50%;
+}
+.part-two-right {
+  width: 50%;
+  width: 259.56px;
+  height: 217.01px;
+  left: 0.36%;
+  right: -0.36%;
+  top: 1.74%;
+  bottom: -1.74%;
+}
+
+.part-three-left {
+  float: left;
+  width: 50%;
+  padding-left: 30%;
+}
+.part-two-right {
+  float: left;
+  width: 50%;
+}
+.part-four-left {
+  float: left;
+  width: 50%;
+}
+.part-two-four {
+  float: left;
+  width: 50%;
+}
+.my-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 300px;
+}
+.my-button:hover {
+  background-color: #45a049;
+}
+.my-button2 {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 1000px;
+}
+.my-button2:hover {
+  background-color: #274170;
+}
+.Inspiration {
+  width: 60%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+.Inspiration p {
+  padding: 20px 20px;
+  padding-bottom: 40px;
+  color: rgb(22, 42, 189);
+}
+.video-container {
+  position: relative;
+  width: 84%;
+  background-color: hsla(227, 47%, 75%, 0.282);
+  margin: 0 auto;
+  height: 800px;
+  border-radius: 10px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 760px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+  height: 800px;
+  margin: 0 auto;
+  border-radius: 7px;
+}
+
+.my-current-targets {
+  padding: 50px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 350px;
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+}
+
+.card h3 {
+  margin-top: 10px;
+  padding: 10px;
+}
+.card a {
+  padding: 10px;
+}
+
+.support {
+  background-image: url(./B10A1-Challenge-Begins/assets/handshake.jpg);
+  padding: 50px;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 12px;
+}
+
+.support-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.support-form input {
+  padding: 16px;
+  font-size: 1em;
+  width: 300px;
+  margin-right: 10px;
+  border-radius: 7px;
+}
+.support-form input:hover {
+  background-color: rgb(152, 156, 159);
+  color: azure;
+}
+
+.support-form button {
+  padding: 16px 24px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #4caf50;
+  border-radius: 7px;
+}
+.support-form button:hover {
+  background-color: hsl(123, 37%, 79%);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #333;
+  color: white;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.The-targets {
+  padding-top: 70px;
+  width: 85%;
+
+  margin: 0 auto;
+}
+.The-targets h2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.press-contact-button {
+  display: inline-block;
+  padding: 16px 26px;
+  font-size: 1em;
+  margin-top: 20px;
+  background-color: hsl(240, 69%, 29%);
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.press-contact-button:hover {
+  background-color: hsl(240, 80%, 40%);
+}
+span {
+  color: rgb(37, 152, 167);
+}
